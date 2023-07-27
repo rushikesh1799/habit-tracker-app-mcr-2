@@ -7,7 +7,7 @@ const ArchivePage = () => {
   return (
     <div>
       <h3>ArchivePage</h3>
-      <div>
+      <div className="habits-container">
         {habitsData?.filter((habit) => habit.isArchive).length === 0
           ? "Sorry, No Habits are archived yet."
           : habitsData
